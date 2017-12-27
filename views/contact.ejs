@@ -1,0 +1,26 @@
+<html>
+<head>
+  <style>
+      body{background-color: skyblue;font-family: verdana;color: #fff;padding: 30px;}
+      h1{font-size: 48px;text-transform: uppercase;letter-spacing: 2px;text-align: center;}
+      p{font-size: 16px;text-align: center;}
+
+  </style>
+</head>
+<body>
+  <h1>Contact us </h1>
+  <p>you wont find a website better than this anywhere else</p>
+  <p><%=  qs.department%> </p>
+  <p><%=  qs.age%> </p>
+<form id="contact-form" action="/contact" method="post">
+<label for="Name">Name</label>
+<input type="text" name="name" value="<%=qs.name%>">
+<label for="Place">Place</label>
+<input type="text" name="Place" value="<%=qs.place%>">
+<label for="department">department</label>
+<input type="text" name="department" value="<%=qs.department%>">
+
+
+</form>
+</body>
+</html>
