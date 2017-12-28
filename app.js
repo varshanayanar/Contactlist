@@ -1,4 +1,3 @@
-
 /*var time=0;
 
 var Timer=setInterval(function() {
@@ -14,8 +13,6 @@ console.log(stuff.counter(['shaun','crystal','ryu']));
 console.log(stuff.adder(2,3));
 console.log(stuff.adder(stuff.pi,2));
 */
-
-hgffgfgfgf
 var express=require('express');
 
 var app=express();
